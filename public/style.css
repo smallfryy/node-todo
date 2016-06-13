@@ -10,7 +10,7 @@ html {
 body {
   margin: 0; }
 
-h1, h2, h3, h4, p, blockquote, figure, ol, ul {
+h1, h2, h3, h4, p, blockquote, figure {
   margin: 0;
   padding: 0; }
 
@@ -50,15 +50,23 @@ textarea {
   font: inherit;
   margin: 0; }
 
-button,
-input[type='button'],
-input[type='submit'],
-input[type='image'] {
-  outline: none;
-  border: none; }
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   color: #000;
   background-color: #f3f3f3; }
+
+.container {
+ padding: 1rem; }
+
+.row {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  padding: 1em;
+}
+
+.content {
+  margin: auto;
+  font-size: 1rem;
+  width: 80%; }
