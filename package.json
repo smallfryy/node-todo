@@ -1,6 +1,6 @@
 
 {
-  "name"         : "node-todo",
+  "name"         : "nodeTodo",
   "version"      : "0.0.0",
   "description"  : "simple todo application in node and angular.",
   "main"         : "server.js",
